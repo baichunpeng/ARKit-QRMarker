@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08E853FD1F0BE83D000E414F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E853FC1F0BE83D000E414F /* AppDelegate.swift */; };
+		08E853FF1F0BE83D000E414F /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 08E853FE1F0BE83D000E414F /* art.scnassets */; };
+		08E854011F0BE83D000E414F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E854001F0BE83D000E414F /* ViewController.swift */; };
+		08E854041F0BE83D000E414F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08E854021F0BE83D000E414F /* Main.storyboard */; };
+		08E854061F0BE83D000E414F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08E854051F0BE83D000E414F /* Assets.xcassets */; };
+		08E854091F0BE83D000E414F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08E854071F0BE83D000E414F /* LaunchScreen.storyboard */; };
+		08E854141F0BE83D000E414F /* ARKit___QRMarkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E854131F0BE83D000E414F /* ARKit___QRMarkTests.swift */; };
+		08E8541F1F0BE83D000E414F /* ARKit___QRMarkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E8541E1F0BE83D000E414F /* ARKit___QRMarkUITests.swift */; };
+		08E8542D1F0BE88E000E414F /* SCNUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E8542C1F0BE88E000E414F /* SCNUtils.swift */; };
+		08E8542F1F0BE8B7000E414F /* FocusSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E8542E1F0BE8B7000E414F /* FocusSquare.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08E854101F0BE83D000E414F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08E853F11F0BE83D000E414F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08E853F81F0BE83D000E414F;
+			remoteInfo = "ARKit + QRMark";
+		};
+		08E8541B1F0BE83D000E414F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08E853F11F0BE83D000E414F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08E853F81F0BE83D000E414F;
+			remoteInfo = "ARKit + QRMark";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08E853F91F0BE83D000E414F /* ARKit + QRMark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ARKit + QRMark.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08E853FC1F0BE83D000E414F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		08E853FE1F0BE83D000E414F /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		08E854001F0BE83D000E414F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		08E854031F0BE83D000E414F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08E854051F0BE83D000E414F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08E854081F0BE83D000E414F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08E8540A1F0BE83D000E414F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08E8540F1F0BE83D000E414F /* ARKit + QRMarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARKit + QRMarkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08E854131F0BE83D000E414F /* ARKit___QRMarkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ARKit___QRMarkTests.swift"; sourceTree = "<group>"; };
+		08E854151F0BE83D000E414F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08E8541A1F0BE83D000E414F /* ARKit + QRMarkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARKit + QRMarkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08E8541E1F0BE83D000E414F /* ARKit___QRMarkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ARKit___QRMarkUITests.swift"; sourceTree = "<group>"; };
+		08E854201F0BE83D000E414F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08E8542C1F0BE88E000E414F /* SCNUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNUtils.swift; sourceTree = "<group>"; };
+		08E8542E1F0BE8B7000E414F /* FocusSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSquare.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08E853F61F0BE83D000E414F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08E8540C1F0BE83D000E414F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08E854171F0BE83D000E414F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08E853F01F0BE83D000E414F = {
+			isa = PBXGroup;
+			children = (
+				08E853FB1F0BE83D000E414F /* ARKit + QRMark */,
+				08E854121F0BE83D000E414F /* ARKit + QRMarkTests */,
+				08E8541D1F0BE83D000E414F /* ARKit + QRMarkUITests */,
+				08E853FA1F0BE83D000E414F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08E853FA1F0BE83D000E414F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08E853F91F0BE83D000E414F /* ARKit + QRMark.app */,
+				08E8540F1F0BE83D000E414F /* ARKit + QRMarkTests.xctest */,
+				08E8541A1F0BE83D000E414F /* ARKit + QRMarkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08E853FB1F0BE83D000E414F /* ARKit + QRMark */ = {
+			isa = PBXGroup;
+			children = (
+				08E853FC1F0BE83D000E414F /* AppDelegate.swift */,
+				08E853FE1F0BE83D000E414F /* art.scnassets */,
+				08E854001F0BE83D000E414F /* ViewController.swift */,
+				08E8542C1F0BE88E000E414F /* SCNUtils.swift */,
+				08E8542E1F0BE8B7000E414F /* FocusSquare.swift */,
+				08E854021F0BE83D000E414F /* Main.storyboard */,
+				08E854051F0BE83D000E414F /* Assets.xcassets */,
+				08E854071F0BE83D000E414F /* LaunchScreen.storyboard */,
+				08E8540A1F0BE83D000E414F /* Info.plist */,
+			);
+			path = "ARKit + QRMark";
+			sourceTree = "<group>";
+		};
+		08E854121F0BE83D000E414F /* ARKit + QRMarkTests */ = {
+			isa = PBXGroup;
+			children = (
+				08E854131F0BE83D000E414F /* ARKit___QRMarkTests.swift */,
+				08E854151F0BE83D000E414F /* Info.plist */,
+			);
+			path = "ARKit + QRMarkTests";
+			sourceTree = "<group>";
+		};
+		08E8541D1F0BE83D000E414F /* ARKit + QRMarkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				08E8541E1F0BE83D000E414F /* ARKit___QRMarkUITests.swift */,
+				08E854201F0BE83D000E414F /* Info.plist */,
+			);
+			path = "ARKit + QRMarkUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08E853F81F0BE83D000E414F /* ARKit + QRMark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08E854231F0BE83D000E414F /* Build configuration list for PBXNativeTarget "ARKit + QRMark" */;
+			buildPhases = (
+				08E853F51F0BE83D000E414F /* Sources */,
+				08E853F61F0BE83D000E414F /* Frameworks */,
+				08E853F71F0BE83D000E414F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ARKit + QRMark";
+			productName = "ARKit + QRMark";
+			productReference = 08E853F91F0BE83D000E414F /* ARKit + QRMark.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08E8540E1F0BE83D000E414F /* ARKit + QRMarkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08E854261F0BE83D000E414F /* Build configuration list for PBXNativeTarget "ARKit + QRMarkTests" */;
+			buildPhases = (
+				08E8540B1F0BE83D000E414F /* Sources */,
+				08E8540C1F0BE83D000E414F /* Frameworks */,
+				08E8540D1F0BE83D000E414F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08E854111F0BE83D000E414F /* PBXTargetDependency */,
+			);
+			name = "ARKit + QRMarkTests";
+			productName = "ARKit + QRMarkTests";
+			productReference = 08E8540F1F0BE83D000E414F /* ARKit + QRMarkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		08E854191F0BE83D000E414F /* ARKit + QRMarkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08E854291F0BE83D000E414F /* Build configuration list for PBXNativeTarget "ARKit + QRMarkUITests" */;
+			buildPhases = (
+				08E854161F0BE83D000E414F /* Sources */,
+				08E854171F0BE83D000E414F /* Frameworks */,
+				08E854181F0BE83D000E414F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08E8541C1F0BE83D000E414F /* PBXTargetDependency */,
+			);
+			name = "ARKit + QRMarkUITests";
+			productName = "ARKit + QRMarkUITests";
+			productReference = 08E8541A1F0BE83D000E414F /* ARKit + QRMarkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08E853F11F0BE83D000E414F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Eugene Bokhan";
+				TargetAttributes = {
+					08E853F81F0BE83D000E414F = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					08E8540E1F0BE83D000E414F = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 08E853F81F0BE83D000E414F;
+					};
+					08E854191F0BE83D000E414F = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 08E853F81F0BE83D000E414F;
+					};
+				};
+			};
+			buildConfigurationList = 08E853F41F0BE83D000E414F /* Build configuration list for PBXProject "ARKit + QRMark" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08E853F01F0BE83D000E414F;
+			productRefGroup = 08E853FA1F0BE83D000E414F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08E853F81F0BE83D000E414F /* ARKit + QRMark */,
+				08E8540E1F0BE83D000E414F /* ARKit + QRMarkTests */,
+				08E854191F0BE83D000E414F /* ARKit + QRMarkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08E853F71F0BE83D000E414F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08E853FF1F0BE83D000E414F /* art.scnassets in Resources */,
+				08E854091F0BE83D000E414F /* LaunchScreen.storyboard in Resources */,
+				08E854061F0BE83D000E414F /* Assets.xcassets in Resources */,
+				08E854041F0BE83D000E414F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08E8540D1F0BE83D000E414F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08E854181F0BE83D000E414F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08E853F51F0BE83D000E414F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08E854011F0BE83D000E414F /* ViewController.swift in Sources */,
+				08E8542F1F0BE8B7000E414F /* FocusSquare.swift in Sources */,
+				08E853FD1F0BE83D000E414F /* AppDelegate.swift in Sources */,
+				08E8542D1F0BE88E000E414F /* SCNUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08E8540B1F0BE83D000E414F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08E854141F0BE83D000E414F /* ARKit___QRMarkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08E854161F0BE83D000E414F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08E8541F1F0BE83D000E414F /* ARKit___QRMarkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08E854111F0BE83D000E414F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08E853F81F0BE83D000E414F /* ARKit + QRMark */;
+			targetProxy = 08E854101F0BE83D000E414F /* PBXContainerItemProxy */;
+		};
+		08E8541C1F0BE83D000E414F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08E853F81F0BE83D000E414F /* ARKit + QRMark */;
+			targetProxy = 08E8541B1F0BE83D000E414F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08E854021F0BE83D000E414F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08E854031F0BE83D000E414F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08E854071F0BE83D000E414F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08E854081F0BE83D000E414F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08E854211F0BE83D000E414F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		08E854221F0BE83D000E414F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08E854241F0BE83D000E414F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VWFG5BQAVT;
+				INFOPLIST_FILE = "ARKit + QRMark/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.evgeniybokhan.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08E854251F0BE83D000E414F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VWFG5BQAVT;
+				INFOPLIST_FILE = "ARKit + QRMark/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.evgeniybokhan.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		08E854271F0BE83D000E414F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VWFG5BQAVT;
+				INFOPLIST_FILE = "ARKit + QRMarkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.evgeniybokhan.test.ARKit---QRMarkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARKit + QRMark.app/ARKit + QRMark";
+			};
+			name = Debug;
+		};
+		08E854281F0BE83D000E414F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VWFG5BQAVT;
+				INFOPLIST_FILE = "ARKit + QRMarkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.evgeniybokhan.test.ARKit---QRMarkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARKit + QRMark.app/ARKit + QRMark";
+			};
+			name = Release;
+		};
+		08E8542A1F0BE83D000E414F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VWFG5BQAVT;
+				INFOPLIST_FILE = "ARKit + QRMarkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.evgeniybokhan.test.ARKit---QRMarkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ARKit + QRMark";
+			};
+			name = Debug;
+		};
+		08E8542B1F0BE83D000E414F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VWFG5BQAVT;
+				INFOPLIST_FILE = "ARKit + QRMarkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.evgeniybokhan.test.ARKit---QRMarkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ARKit + QRMark";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08E853F41F0BE83D000E414F /* Build configuration list for PBXProject "ARKit + QRMark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08E854211F0BE83D000E414F /* Debug */,
+				08E854221F0BE83D000E414F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08E854231F0BE83D000E414F /* Build configuration list for PBXNativeTarget "ARKit + QRMark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08E854241F0BE83D000E414F /* Debug */,
+				08E854251F0BE83D000E414F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		08E854261F0BE83D000E414F /* Build configuration list for PBXNativeTarget "ARKit + QRMarkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08E854271F0BE83D000E414F /* Debug */,
+				08E854281F0BE83D000E414F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		08E854291F0BE83D000E414F /* Build configuration list for PBXNativeTarget "ARKit + QRMarkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08E8542A1F0BE83D000E414F /* Debug */,
+				08E8542B1F0BE83D000E414F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08E853F11F0BE83D000E414F /* Project object */;
+}
