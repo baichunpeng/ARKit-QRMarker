@@ -1,6 +1,6 @@
 # ARKit + QRMarker
 
-This test project is able to get an initial anchor near the marker and track is even if the merker is ot of view. Also it updates the postion of the object if the marker was moved.
+This test project is able to get an initial anchor near the marker and track it even if the marker is out of view. Also it updates the position of the object if the marker was moved. An inital anchor is a bottom left qorner of the QR mark.
 
 ## Requirements
 
